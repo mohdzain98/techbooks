@@ -1,0 +1,382 @@
+@charset "UTF-8";
+body{
+	font-family: "Roboto",Helvetica,Arial,sans-sarif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+        background-color: #fff;
+}
+
+/*header style*/
+
+.navbar{
+	background: white;
+        position: fixed;
+
+}
+
+.navbar-collapse .right{
+	float: right;
+}
+
+.navbar-brand{
+	float: left;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	height: 70px;
+
+}
+
+.navbar-branded{
+	float: center;
+	padding: 10px 10px;
+	font-size: 20px;
+	line-height: 30px;
+	height: 85px;
+
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus{
+	text-decoration: none;
+}
+
+
+.navbar-collapse ul.nav > li > a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.padding-nav{
+	padding-top: 10px;
+}
+
+.navbar-collapse ul.nav > li > a:hover{
+	background: #e7e7e7;
+}
+
+.btn-primary{
+	color: rgb(255, 255, 255);
+	background-color: rgb(79, 191, 168);
+	border-color: rgb(65, 179, 156);
+
+}
+
+
+
+.box{
+	background:#fff;
+        margin:0 0 30px;
+	border:solid 2px #e6e6e6;
+	padding-top: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+	padding-bottom: 10px;
+	margin-top:10px;
+        margin-left: 5px;
+}
+.box .p{
+	padding-left:5px;
+}
+.box .box-header{
+	background: #f7f7f7;
+	margin: -10px 5px 20px;
+	padding: 5px;
+	border-bottom: solid 1px #eeeeee; 
+	margin-top: 0px;
+}
+.container .box{
+    margin-bottom: 20px;
+}
+
+.container .box p{
+      margin-left: 50px;
+}
+
+.container .box .btn-info{
+    float: right;
+}
+
+header{
+    background-image:url('images/bookback1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+
+.home-bg{
+    
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 100px;
+}
+.content{
+	width: 1180px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+h1{
+	color: #fff;
+	font-size: 125%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	font-weight: lighter;
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Robota",sans-serif;
+    font-weight: lighter!important;
+}
+#content .box h4{
+    padding-left: 10px;
+   
+}
+
+.colorchange{
+	animation: colorhand 2s infinite;
+}
+@keyframes colorhand{
+	0%{color:red;}
+	25%{color:#bf55ec;}
+	50%{color:white;}
+	100%{color:#bf55ec;}
+}
+/*
+@media only screen and (max-width: 1180px){
+	.content{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+@media only screen and (max-width: 990px){
+	h1{
+		font-size: 200%;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1
+        {
+            font-size: 100%;
+            padding-top: 30px;
+        }
+        li.a{
+            font-size: 100%;
+            width: 50px;
+        }
+        .content a{
+            size: 50%;
+            
+        }
+        
+        .home-bg{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+}*/
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+}
+
+.btn-full{
+	background-color: transparent;
+	color: #808000;
+	margin-right: 15px;
+	border: 1px solid #ff0000;
+        border-radius: 20px;
+
+}
+
+.btn-full:hover{
+	background-color: greenyellow;
+
+}
+.btn-default{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    size: 20px;
+}
+.btn-info{
+    margin-bottom:15px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.btn-warning:hover{
+	background-color: #000000;
+
+}
+
+#content{
+	padding-left: 25px;
+}
+
+.single{
+	width: 290px;
+
+}
+
+@media (max-width: 768px){
+	.single{
+		width: 60%;
+		margin: 0 auto;
+	}
+        .box{
+            width: 100%;
+        }
+}
+
+#content .product{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+	background: #fff;
+	border-color: solid 1px #e6e6e6;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+
+
+#content .product .text .buttons{
+	clear: both;
+	text-align: center;
+}
+
+#content .product .text h3{
+	text-align: center;
+	font-size: 20px;
+}
+
+#content .product .text h3 a{
+	color: rgb(85, 85, 85);
+}
+
+#content .product .text{
+	padding: 10px 10px 0px;
+}
+
+#content .product .text .buttons .btn{
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+a.info{
+    position:absolute; /*this is the key*/
+    color:#000;
+    /*top:100px;*/
+    /*left:50px;*/
+    text-decoration:none;
+    text-align:center;
+    
+  }
+
+
+
+a.info span{display: none }
+
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:inline-block;
+    position:absolute ;
+    top: -150px;
+    width:20em;
+    left: -15px;
+    border:2px groove #000000;
+    background-color:#fff;
+    text-align: left;
+     padding:5px;
+  }
+  
+a.info:hover span .box.p{
+      padding-left:  -40px;
+  }  
+
+a.info:hover span:after{ /*the span will display just on :hover state*/
+    content:'';
+    position:absolute;
+    bottom: 5px;
+    width:10px;
+    height:10px;
+    border-bottom:5px solid #0cf;
+    border-right:5px solid #0cf;
+    background:#cff;
+    left:50%;
+    margin-left:-5px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+  }
+	
+#footer{
+        margin-top: 10px;
+	background:#e0e0e0;
+	padding: 20px 0; 
+}
+#footer ul{
+	padding-left:0;
+	list-style: none;
+}
+#footer ul a{
+	color: #999999;
+	padding: 20px 0;
+}
+
+#footer .social{
+	text-align: left;
+
+}
+#footer .social a{
+	margin:0 10px 0 0;
+	color: #fff;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;
+	transform: all 0.2s ease-out;
+	vertical-align: bottom;
+	background-color: #555555;
+}
+
+/* copyright*/
+
+#copyright{
+	background: #333;
+	color: #ccc;
+	padding: 20px;
+	font-size: 12px; 
+}
+
+#copyright p{
+margin: 0;
+}
+
+/*Index page buttons*/
+#index .huge{
+	font-size: 40px;
+	line-height: normal;
+}
+
+#index a:hover span{
+    font-weight:bold;
+}
