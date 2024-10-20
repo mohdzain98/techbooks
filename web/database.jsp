@@ -1,10 +1,15 @@
 <%@ taglib prefix = "sql" uri = "http://java.sun.com/jsp/jstl/sql" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 
+<%
+    String uname = System.getenv("UNAME");
+    String dbpass = System.getenv("DB_PASS");
+    String dbname = System.getenv("DB_NAME");
+%>
 
 <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"  
-     url="jdbc:mysql://localhost/books"  
-     user="root"  password="Geeky@Zain98"/> 
+     url="<%= uname %>" 
+     user="<%=dbname %>"  password="<%= dbpass %>"/> 
 
 <%
 String db = request.getParameter("p");
