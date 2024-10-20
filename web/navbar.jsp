@@ -6,8 +6,17 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<div style="background-color: blue; color:white; padding: 5px 0;">
-    <center><p style='font-weight: bold'>This project is running on Proxy Server</p></center>
+<div style="background-color: blue; color:white; padding: 10px 0px; ">
+		<div class='row'>
+			<div class='col-md-3 col-xs-12'>
+				<a href='https://mohdzain.com/projects' style='color:white; float:left; margin-left:20px'>< back</a>
+			</div>
+			<div class='col-md-9 col-xs-12'>
+				<p style="font-weight: bold; margin-left:20%;" class='hidden-xs'>This Project is running on Proxy Server</p>
+				<center><p class='visible-xs' style="font-weight: bold;">This Project is running on Proxy Server</p></center>
+			</div>
+		</div>
+	</div>
 </div>
 	<div class="navbar-default" id="navbar">
 		<div class="container"><!-- container start-->
